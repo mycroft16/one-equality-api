@@ -1,0 +1,20 @@
+{
+  "ftp://ftp.one-equality.com@oneequalityapi@api.one-equality.com": {
+    ".ftpquota": {
+      "type": "-",
+      "size": 9,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".htaccess": {
+      "type": "-",
+      "size": 281,
+      "lmtime": 0,
+      "modified": true
+    },
+    ".well-known": {},
+    "cgi-bin": {},
+    "v1": {}
+  },
+  "$version": 1
+}
