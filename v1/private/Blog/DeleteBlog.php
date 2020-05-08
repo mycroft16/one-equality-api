@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] != "OPTIONS") {
     $mysql->query($deleteBlog);
 
     http_response_code(200);
-    $return true;
+    $return = true;
 
     echo json_encode($return, JSON_HEX_APOS);
 

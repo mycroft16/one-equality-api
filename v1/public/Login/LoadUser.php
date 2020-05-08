@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] != "OPTIONS") {
         $return = $row;
         
     } else {
-        http_response_code(400)
+        http_response_code(400);
         $return['message']  = "User not found.";
     }
     

@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] != "OPTIONS") {
         `createdOn` DESC";
     if ($res = $mysql->query($query)) {
 
-        $return = []
+        $return = [];
         while($row = $res->fetch_assoc()) {
             $return[] = $row;
         }

@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] != "OPTIONS") {
         if ($mysql->query($deleteComments)) {
 
             http_response_code(200);
-            $return true;
+            $return = true;
 
         } else {
 
